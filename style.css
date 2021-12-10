@@ -1,0 +1,63 @@
+<!DOCTYRE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Các món ăn</title>
+    <link rel="stylesheet"href="style.css">
+    <style>
+    div{
+      width: 420px;
+      margin:auto;
+      padding: 10px;
+      background-repeat:no-repeat;
+      background-position:20px 30px;
+      overflow: hidden;
+    }
+   h2{
+     text-align: right;
+     color:#CB6700;
+   } 
+    table{
+      border-collapse: collapse;
+      width: 200px;
+      float: right;
+      text-transform: capitalize;
+    }
+    table,tr,td{
+      border:1px solid # 7F5F76;
+    }
+    .center{
+      text-align:center;
+    }
+    .bg_nau{
+      background-color: #CB6700;
+    }
+    .bg_trang{
+      background-color: white;
+    }
+  <style>
+</head>
+<body>
+   <div>
+     <h2>Các món ăn HN</h2>
+     <table>
+        <tr class=".bg_nau">
+             <td>STT</td>
+             <td class="center">Tên món ăn</td>
+        </tr>
+        <tr class="bg_trang">
+             <td>1.</td>
+             <td>Bánh cuốn Thanh trì</td>
+        </tr>
+        <tr>
+             <td>2.</td>
+             <td>xôi HN</td>
+             </tr>
+           </table>
+         </div>
+       </body>
+     </html>
+        
+             
+        
+
